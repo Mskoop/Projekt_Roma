@@ -1,0 +1,31 @@
+
+
+/*@font-face {
+    font-family: Santio;    
+    src: url(../fonts/SANTIO/TTF/Santio\ Boldline.ttf);
+}
+@font-face {
+    font-family: Tangerine;
+    src: url(../fonts/Tangerine/Tangerine-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}*/
+
+/*Farben::
+ #e7bc0e  /
+  #efefef / 
+  #6bc1a3 / 
+  #cb91b6 / 
+  #7eb8e1 /
+   #000 / 
+   #fff */
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
