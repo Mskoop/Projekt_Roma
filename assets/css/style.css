@@ -1,8 +1,8 @@
 
 
-/*@font-face {
+@font-face {
     font-family: Santio;    
-    src: url(../fonts/SANTIO/TTF/Santio\ Boldline.ttf);
+    src: url(../fonts/SANTIO/TTF/Santio\ Bold.ttf);
 }
 @font-face {
     font-family: Tangerine;
@@ -12,7 +12,7 @@
 @font-face {
     font-family: Roboto;
     src: url(../fonts/Roboto/Roboto-Medium.ttf);
-}*/
+}
 
 /*Farben::
  #e7bc0e  /
@@ -28,4 +28,158 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+}
+
+.hart {
+width: 7vh;
+margin-right: 2vw;
+}
+.first > p {
+    font-size: 1.4rem;
+    padding: 1vh 0 0 0; 
+    color:white;
+    border-bottom: 2px solid  #e7bc0e;
+}
+.first {
+font-family: Roboto;
+font-weight: 700;
+display:flex;
+justify-content: end;
+align-items: center;
+margin-left: auto;
+margin-right: 10vw;
+}
+header {
+    height:100vh;
+    background-image: url(../img/Lev3_1_Project_css-vertiefung_roma/cleo-topper.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.7rem;
+    line-height: 2.7rem;
+    color: #efefef;
+    width: 16vw;
+    font-family: 'Santio';
+    font-weight: 800;
+    padding: 4rem 0;
+    letter-spacing: 0.07rem;
+/*     background-color: #543;
+ */    }
+
+header div p {
+    font-family: Tangerine;
+font-size: 2rem;
+color:#e7bc0e ;
+margin-top: 3rem;
+}
+.section1 {
+    background-image: url(../img/Lev3_1_Project_css-vertiefung_roma/cleo-topper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+.text_hauptbild {
+    margin-left: 14vw;
+    /*padding-top: 16vh;
+*/
+}
+.text2 {
+    width: 43vw;
+    font-family: Santio;
+ background-color: #888;
+    color: #6bc1a3;
+ font-size: 1.6rem;
+    opacity: 0.7;
+    line-height: 7.5vh;
+    padding-top: 40vh;
+    padding-bottom: 60vh;
+}
+.article1 {
+    padding-left: 20vw;
+}
+.article1 span {
+    color: white;
+    background-color: black;
+}
+.image_people1 {
+    width: 15vw;
+    margin-bottom: 20vh;
+    margin-left: 16vw;
+     background-color: skyblue;
+    opacity: 0.7;}
+
+.article2 {
+    background-image: url(../img/Lev3_1_Project_css-vertiefung_roma/cleo-topper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.section3 {
+        background-image: url(../img/Lev3_1_Project_css-vertiefung_roma/cleo-topper.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+.section3 {
+    padding-left: 16vw;
+    padding-bottom: 60vh;
+}
+
+
+.section3 div {
+    font-family: Santio;
+font-size: 6rem;
+color: #e7bc0e;
+display:block;
+}
+.section3 article p {
+    font-family: Santio;
+    font-size: 1.6rem;
+    color:  #e7bc0e;
+}
+.section3 article p span {
+    color: white;
+    background-color: black;
+}
+.image_hands2 {
+    width: 15vw;
+    margin-bottom: 20vh;
+    margin-left: 16vw;
+   background-color: skyblue;
+     opacity: 0.7;}
+
+.section4 {
+    background-image: url(../img/Lev3_1_Project_css-vertiefung_roma/cleo-topper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+
+.section4 p {
+    font-family: Santio;
+    font-size: 1.6rem;
+    color:  #cb91b6;
+    padding-left:16vw;
+}
+
+.Dollar {
+    font-family: Santio;
+font-size: 6rem;
+color: #cb91b6;
+display:block;
+}
+.paid {
+    color: white;
+    background-color: black;
 }
